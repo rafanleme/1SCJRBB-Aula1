@@ -1,0 +1,29 @@
+article{
+    width: 100px;
+    height: 100px;
+    margin: 0 2px 2px 0;
+
+    flex-basis: 120px;
+
+    background-color: deeppink;
+}
+
+article:nth-child(3) {
+    flex-shrink: 3;
+}
+
+article:nth-child(4) {
+    flex-grow: 10;
+
+    background-color: aqua;
+}
+
+section {
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row;
+
+    padding: 2px;
+    border: 1px solid black;
+}

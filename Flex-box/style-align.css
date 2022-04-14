@@ -1,0 +1,20 @@
+article{
+    width: 100px;
+    margin: 0 2px 2px 0;
+
+    flex-basis: 120px;
+
+    background-color: deeppink;
+}
+
+#container {
+    display: flex;
+    flex-flow: row;
+
+    justify-content: space-between;
+    align-items: stretch;
+
+    height: 600px;
+    padding: 2px;
+    border: 1px solid black;
+}
